@@ -1,0 +1,87 @@
+[
+  {
+    "latitude": 40.74382680525833,
+    "longitude": -74.0283787250519,
+    "description": "eating pizza",
+    "id": "db6b6ef6-d928-48de-9d8d-fd4a74760b09",
+    "timestamp": "2026-10-04T13:41:24.261Z",
+    "votes": -1
+  },
+  {
+    "latitude": 40.74345289113572,
+    "longitude": -74.02846455574037,
+    "description": "running \n",
+    "id": "48d7c083-8797-423a-ab0c-afb7d0bf28a0",
+    "timestamp": "2026-10-04T13:41:44.600Z",
+    "votes": -1
+  },
+  {
+    "latitude": 40.74023389131268,
+    "longitude": -74.03394699096681,
+    "description": "adfasdf\n",
+    "id": "03c13d46-bd1e-4192-aee5-d086999ee813",
+    "timestamp": "2026-10-04T13:43:38.796Z",
+    "votes": 0
+  },
+  {
+    "latitude": 40.73886820795961,
+    "longitude": -74.03081953525545,
+    "description": "asdfasdf\n\n",
+    "id": "39d64b41-ee85-4c2a-9342-6e9ec914753b",
+    "timestamp": "2026-10-04T13:43:59.154Z",
+    "votes": -1
+  },
+  {
+    "latitude": 16.130098487843394,
+    "longitude": 80.06486044381747,
+    "description": "Eating pizza ",
+    "status": "rumoured",
+    "id": "b06cbf0f-62b1-46dc-9cb9-4380034812fa",
+    "timestamp": "2026-10-05T07:31:36.417Z"
+  },
+  {
+    "latitude": 15.901980738410343,
+    "longitude": 80.11715091532098,
+    "description": "Running ",
+    "status": "rumoured",
+    "id": "671535fa-a067-421d-94e5-e46b5ed6db8e",
+    "timestamp": "2026-10-05T07:31:47.566Z"
+  },
+  {
+    "latitude": 16.124725930563557,
+    "longitude": 80.09026363492012,
+    "description": "Hii",
+    "status": "rumoured",
+    "id": "e85f87f1-4cc3-4ecf-8e94-83b5c62c8a05",
+    "timestamp": "2026-10-05T07:31:55.043Z"
+  },
+  {
+    "latitude": 15.108659265985365,
+    "longitude": 78.48144114017488,
+    "description": "maa illu",
+    "status": "rumoured",
+    "id": "5380fd56-2c6c-4311-9be7-73e3907adf8e",
+    "timestamp": "2026-10-05T07:34:42.464Z",
+    "votes": 0
+  },
+  {
+    "latitude": 40.703545803451426,
+    "longitude": -73.92562866210939,
+    "description": "asfas",
+    "status": "rumoured",
+    "creatorId": "w379f8liows",
+    "id": "d3a5ad8f-d4d0-4e6a-a0e4-a9886822d732",
+    "timestamp": "2026-10-05T07:43:47.412Z",
+    "votes": 0
+  },
+  {
+    "latitude": 16.510964338226355,
+    "longitude": 80.6178903579712,
+    "description": "enjoy pandago\n",
+    "status": "rumoured",
+    "creatorId": "w379f8liows",
+    "id": "011058da-1e6b-4a4b-8f42-023b4973cb88",
+    "timestamp": "2026-10-05T07:48:51.288Z",
+    "votes": 1
+  }
+]

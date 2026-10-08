@@ -44,7 +44,7 @@ export async function getSightings(): Promise<Sighting[]> {
 export async function addSighting(sighting: Omit<Sighting, 'id' | 'timestamp' | 'votes'>): Promise<Sighting> {
   const newSighting: Sighting = {
     ...sighting,
-    id: crypto.randomUUID(),
+    id: (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : Math.random().toString(36).substring(2),
     timestamp: new Date().toISOString(),
     votes: 0
   };

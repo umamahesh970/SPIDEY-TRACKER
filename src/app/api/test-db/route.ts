@@ -5,7 +5,13 @@ import { DynamoDBDocumentClient, ScanCommand } from '@aws-sdk/lib-dynamodb';
 export async function GET() {
   const region = process.env.MY_AWS_REGION || process.env.AWS_REGION || 'us-east-1';
   try {
-    const client = new DynamoDBClient({ region });
+    const client = new DynamoDBClient({ 
+      region,
+      credentials: (process.env.MY_AWS_ACCESS_KEY_ID && process.env.MY_AWS_SECRET_ACCESS_KEY) ? {
+        accessKeyId: process.env.MY_AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.MY_AWS_SECRET_ACCESS_KEY,
+      } : undefined
+    });
     const docClient = DynamoDBDocumentClient.from(client);
     const TABLE_NAME = process.env.DYNAMODB_TABLE_NAME || 'SpideySightings';
     

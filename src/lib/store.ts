@@ -16,6 +16,10 @@ export interface Sighting {
 // For local testing, you must configure AWS credentials in your .env file or AWS CLI.
 const client = new DynamoDBClient({
   region: process.env.MY_AWS_REGION || process.env.AWS_REGION || 'us-east-1',
+  credentials: (process.env.MY_AWS_ACCESS_KEY_ID && process.env.MY_AWS_SECRET_ACCESS_KEY) ? {
+    accessKeyId: process.env.MY_AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.MY_AWS_SECRET_ACCESS_KEY,
+  } : undefined
 });
 
 const docClient = DynamoDBDocumentClient.from(client);

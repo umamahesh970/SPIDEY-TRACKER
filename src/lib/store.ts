@@ -15,7 +15,7 @@ export interface Sighting {
 // In Next.js on AWS Amplify, credentials are automatically picked up from the IAM role.
 // For local testing, you must configure AWS credentials in your .env file or AWS CLI.
 const client = new DynamoDBClient({
-  region: process.env.AWS_REGION || 'us-east-1',
+  region: process.env.MY_AWS_REGION || process.env.AWS_REGION || 'us-east-1',
 });
 
 const docClient = DynamoDBDocumentClient.from(client);

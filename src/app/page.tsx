@@ -62,6 +62,7 @@ export default function Home() {
         </div>
 
         <div className="bg-black text-white px-4 py-1 border-[3px] border-white w-[300px] overflow-hidden whitespace-nowrap">
+           {/* @ts-expect-error marquee is deprecated but perfect for retro aesthetic */}
            <marquee className="text-xs">SHARE YOUR SPIDEY SIGHTINGS ON X</marquee>
         </div>
       </div>
